@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS;
+}
+
+.header
+{
+    background-color: skyblue;
+    padding-left: 30px;
+    line-height: 70px;
+}
+
+a,a:hover
+{
+    text-decoration: none!important;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.logout
+{
+    float: right;
+    padding-right: 30px;
+}
+
+ul
+{
+    background-color:black;
+    width: 16%;
+    height: 100%;
+    position: fixed;
+    padding-top: 5%;
+    text-align: center;
+}
+
+ul li
+{
+    list-style: none!important;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+ul li a
+{
+    color: orangered;
+    font-weight: bold;
+}
+
+ul li a hover
+{
+    text-decoration: none;
+    color: skyblue;
+}
